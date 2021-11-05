@@ -25,7 +25,7 @@
     background-color: #04AA6D;
   }
 
-  .header {
+header {
     display: block;
     position: relative;
     background-image: url('/images/headerpicture.JPG');
