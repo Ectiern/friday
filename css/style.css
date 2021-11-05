@@ -39,6 +39,36 @@
     color: white;
     font-size: 30px;
    }
+   .gallery-grid {
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The Picture Frame */
+  .gallery-frame {
+    padding: 5px;
+    font-size: 5px;
+    text-align: center;
+    background-color: #333;
+    color: #d9d9d9;
+  }
+  
+  /* The Images */
+  .gallery-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    transition: opacity 0.25s ease-in-out;
+  }
+  
+  .gallery-img:hover {
+    opacity: .7;
+  }
+
   *{
     box-sizing: border-box;
   }
@@ -52,6 +82,12 @@
     font-size: 2em;
     text-align: center;
     line-height: 2;
+
+    }
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1;
 
     }
 
@@ -79,6 +115,19 @@
      border: 5px solid white;
      
     }
+  .gallerytext{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 5px solid white;
+  }
+
     .row {
       display: flex;
       flex-wrap: wrap;
