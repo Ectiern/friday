@@ -1,7 +1,7 @@
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: rgb(75,106,136);
     overflow: auto;
   }
   
@@ -21,13 +21,13 @@
   
   /* Current/active navbar link */
   .active {
-    background-color: #04AA6D;
+    background-color: rgb(179,129,179);
   }
 
    header{
     display: block;
     position: relative;
-    background-image: url('/images/headerpicture.JPG');
+    background-image: url('../images/headerpicture.JPG');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     -moz-background-size: cover;
@@ -35,11 +35,51 @@
     background-size: cover;
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    /*background: #1abc9c;*/
     color: white;
     font-size: 30px;
    }
   
+
+  .block{
+    display: block;
+    border: 2rem black solid;
+   }
+
+  h1{
+    font-size: 2em;
+    text-align: center;
+    line-height: 2;
+
+    }
+
+   body{
+   margin: 0;
+   padding: 0;
+   font-size: 1.4em; /* test for this! Make all sizes em or rem */
+   background-color: rgb(179,129,179);
+   }
+
+   p {
+    padding: 0 20px;
+   }
+
+   .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
     .navbar a {
