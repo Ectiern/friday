@@ -24,7 +24,7 @@
     background-color: #04AA6D;
   }
 
- .header {
+   #header-background{
     display: block;
     position: relative;
     background-image: url('/images/headerpicture.JPG');
@@ -38,7 +38,7 @@
     background: #1abc9c;
     color: white;
     font-size: 30px;
-  }
+   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
