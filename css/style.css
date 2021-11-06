@@ -146,11 +146,11 @@
       margin-right: auto;
     }
   
-    /*Recipes*/ 
+    /*Recipes Start*/ 
 
     .recipecontainer{
  
-      color: #123C69;
+      color: rgb(75,106,136);
       margin-right: 20px;
       margin-left: 20px;
     }
@@ -163,11 +163,6 @@
     line-height: 2;
     }
 
-    h5{
-      text-align: left;
-      color: #123C69;
-      text-justify: auto;
-    }
     
     .recipe{
       justify-content: left;
@@ -182,17 +177,19 @@
      }
      .salmonrecipe {
       background-color: white;
-      border: 10px solid #BAB2B5;
-      padding: 30px;
+      border: 10px solid rgb(75,106,136);
+      padding: 20px;
       grid-column: 1/ span 1;
     }
     .salmonrecipe h2{
+      display: block;
+      padding-top: 20;
       text-align: center;
-      color: #AC3B61;
+      color: rgb(230,87,84);
     }
     .salmonrecipe h3{
       text-align: left;
-      color: #AC3B61;
+      color: rgb(230,87,84);
     }
     .salmonrecipe h4{
       text-align: left;
@@ -200,18 +197,20 @@
     }
     .chickenrecipe{
       background-color: white;
-      border: 10px solid #BAB2B5 ;
+      border: 10px solid rgb(75,106,136);
       padding: 30px;
       grid-column: 2/ span 1;
     }
     .chickenrecipe h2{
+      display: block;
       text-align: center;
-      color: #AC3B61;
+      padding-top: 20px;
+      color: rgb(230,87,84);
     }
     .chickenrecipe h3{
       text-align: left;
       justify-content: center;
-      color: #AC3B61;
+      color: rgb(230,87,84);
       line-height: 1;
     }
     .chickenrecipe h4{
@@ -220,34 +219,50 @@
     }
     .eggrecipe{
       background-color: white;
-      border: 10px solid #BAB2B5;
+      border: 10px solid rgb(75,106,136);
       padding: 30px;
     }
-    .eggrecipe h2, h3{
+    .eggrecipe h2{
       text-align: center;
-      color: #AC3B61;
+      color: rgb(230,87,84);
     }
+    .eggrecipe h3{
+      text-align: left;
+      justify-content: center;
+      color: rgb(230,87,84);
+      line-height: 1;
+    }
+    .eggrecipe h4{
+      text-align: left;
+      color: #000000;
+    }
+
     .shrimprecipe{
       background-color: white;
-      border: 10px solid #BAB2B5;
+      border: 10px solid rgb(75,106,136); 
       padding: 30px;
     }
-    .shrimprecipe h2, h3{
+    .shrimprecipe h2{
       text-align: center;
-      color: #AC3B61;
+      color: rgb(230,87,84);
     }
-    
-    .lunch{
-      background-color: white;
-      border: 10px solid #BAB2B5	;
-      padding: 30px;
+    .shrimprecipe h3{
+      text-align: left;
+      justify-content: center;
+      color: rgb(230,87,84);
+      line-height: 1;
     }
-    
-    .lunch h2, h3{
-      text-align: center;
-      color: #AC3B61;
+    .shrimprecipe h4{
+      text-align: left;
+      color: #000000;
     }
-    
+  
+  /*Recipes End*/ 
+
+  /*Advice Start*/ 
+
+  /*Advice End*/ 
+
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
     .navbar a {
