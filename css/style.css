@@ -11,7 +11,7 @@
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 22px;
   }
   
   /* Navbar links on mouse-over */
@@ -21,7 +21,7 @@
   
   /* Current/active navbar link */
   .active {
-    background-color: rgb(179,129,179);
+    background-color: rgb(83,47,97);
   }
 
    header{
@@ -261,6 +261,27 @@
 
   /*Advice Start*/ 
 
+    h6{
+      text-align: center;
+      color: white;
+      font-family: 'Tangerine', cursive;
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+     }
+
+     .advice{
+      color: white;
+      background-color: rgb(75,106,136) ;
+      text-align: left;
+      padding-left: 35px;
+      margin: 20px;
+      border: 2px white solid;
+     }
+      .advice h2{
+        margin-bottom: 5px;
+        margin-top: 15px;
+      }
   /*Advice End*/ 
 
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
